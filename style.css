@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color: var(--cor-de-fundo);
+    background: url("img/bfc101e255f72c01e1a9f73a03bbe6da.jpg")
     color: var(--branco);
     font-family: 'Chakra Petch', sans-serif;
 }
