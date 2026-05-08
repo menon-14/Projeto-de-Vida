@@ -6,9 +6,8 @@ for (let i=0;i <botoes.length;i++){
 
     for(let j=0;j<botoes.length;j++){
         botoes[j].classList.remove("ativo");
-        textos[j].classList.remove("ativo");
-
-        }
+        textos[j].classList.remove("ativo"); 
+    }
 
         botoes[i].classList.add("ativo");
         textos[i].classList.add("ativo");
@@ -17,5 +16,6 @@ for (let i=0;i <botoes.length;i++){
 
 const contadores= document.querySelectorAll(".contador");
 const tempoObjetivo1 = new Date("2026-04-30T00:00:00")
+let tempoAtual = new Date();
 
-contadores[0].textContent= tempoObjetivo1;
+contadores[0].textContent= tempoObjetivo1 - tempoAtual;
